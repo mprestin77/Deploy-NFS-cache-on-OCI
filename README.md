@@ -1,5 +1,7 @@
 # Deploy NFS cache proxy on OCI
 
+NFS cache can be deploy in 2 architectures
+
 ### Architecture1
 
 ![image](https://github.com/mprestin77/fs-cache/assets/54962742/e0f6d554-8dff-42e3-9c9e-62d2d8402369)
