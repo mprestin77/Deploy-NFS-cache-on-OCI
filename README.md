@@ -52,7 +52,7 @@ sudo systemctl status cachefiled
 
 ![image](https://github.com/mprestin77/fs-cache/assets/54962742/9d4cb01b-b5ca-4ec1-aa46-2bf1cb06d338)
 
-Mount shares exported from NFS to NFS clients. For example, on NFS client run
+Mount directories exported from NFS cache to NFS clients. For example, on NFS client you can run
 
 sudo mount <NFS-cache-IP:/nfs-share /nfs-share 
 
