@@ -1,2 +1,2 @@
-# fs-cache
-NFS caching on OCI
+# Deploying fs-cache on OCI
+Deploying NFS caching on OCI
