@@ -1,6 +1,6 @@
 # Deploy NFS cache on OCI
 
-NFS cache can be deploy in 2 architectures
+NFS cache can be deployed in 2 architectures
 
 ### Architectural diagram1 (used in the article)
 
