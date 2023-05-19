@@ -21,6 +21,9 @@ Use of one available E4.DenseIO.Flex shapes available
 
 These DenseIO shapes have different number of NVMe local disks. NVMe storage will be used for caching NFS data. Select the shape based on the storage requirements.
 
+Select VCN and subnet, add public SSH key and then open Advanced Options and add Cloud-init script install.sh from the github
+
+![image](https://github.com/mprestin77/fs-cache/assets/54962742/2dadf357-e3ef-4db0-a4e5-6aa2ce44a86a)
 
 
 
