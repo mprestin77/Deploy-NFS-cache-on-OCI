@@ -10,13 +10,9 @@ NFS cache can be deployed in 2 architectures
 
 ![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/a8681e27-4450-4baa-a81b-f438381cb181)
 
-To deploy NFS cache on OCI provision a compute instance using one of E4.DenseIO.Flex shape. 
+To deploy NFS cache on OCI provision a compute instance using one of E4.DenseIO.Flex shape. Use of one available E4.DenseIO.Flex shapes available
 
-![image](https://github.com/mprestin77/fs-cache/assets/54962742/ce6780af-2b9e-4150-995d-9c847848829d)
-
-Use of one available E4.DenseIO.Flex shapes available
-
-![image](https://github.com/mprestin77/fs-cache/assets/54962742/2a602cc6-1733-4ccf-a3b3-2b14f461c894)
+![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/452b83cb-554a-47f9-a6b1-c177ff045096)
 
 These DenseIO shapes have different number of NVMe local disks. NVMe storage will be used for caching NFS data. Select the shape based on the storage requirements.
 
