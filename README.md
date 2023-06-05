@@ -18,8 +18,7 @@ These DenseIO shapes have different number of NVMe local disks. NVMe storage wil
 
 Select VCN and subnet, add public SSH key and then open Advanced Options and add Cloud-init script install.sh from the github
 
-![image](https://github.com/mprestin77/fs-cache/assets/54962742/2dadf357-e3ef-4db0-a4e5-6aa2ce44a86a)
-
+![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/9abb58e3-645f-4722-9f81-d88b2573acbb)
 
 The script does the following:
 
