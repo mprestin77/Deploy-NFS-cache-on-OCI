@@ -4,8 +4,7 @@ NFS cache can be deployed in 2 architectures
 
 ### Architectural diagram1 (used in the article)
 
-![image](https://github.com/mprestin77/fs-cache/assets/54962742/e0f6d554-8dff-42e3-9c9e-62d2d8402369)
-
+![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/f762f23b-dfe9-4598-8d3e-8be116e5df06)
 
 ### Architectural diagram2 (can be configured for HA)
 
