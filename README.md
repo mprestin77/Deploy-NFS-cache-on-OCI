@@ -9,7 +9,7 @@ NFS cache can be deployed in 2 architectures
 
 ### Architectural diagram2 (can be configured for HA)
 
-![image](https://github.com/mprestin77/fs-cache/assets/54962742/3edabc1c-7891-480c-88ab-354e6bca2b3b)
+![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/3edabc1c-7891-480c-88ab-354e6bca2b3b)
 
 To deploy NFS cache on OCI provision a compute instance using one of E4.DenseIO.Flex shape. 
 
