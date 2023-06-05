@@ -42,9 +42,9 @@ sudo exportfs -a
 
 Check the cachfiled service is running
 
-sudo systemctl status cachefiled
+sudo systemctl status cachefilesd
 
-![image](https://github.com/mprestin77/fs-cache/assets/54962742/9d4cb01b-b5ca-4ec1-aa46-2bf1cb06d338)
+![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/41f4b8e3-591b-40f6-8655-4d2ea0f5fbd0)
 
 Mount directories exported from NFS cache to NFS clients. For example, on NFS client you can run
 
