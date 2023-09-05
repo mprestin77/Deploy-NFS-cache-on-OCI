@@ -1,15 +1,18 @@
 # Deploy NFS cache on OCI
 
-NFS cache can be deployed in 2 architectures
+### Introduction
+This setup gives your cloud-based compute instances access to on-prem NFS storage by caching data on cloud when an NFS client requests it. NFS client nodes write data directly back to your NFS origin file server using write-through caching. 
 
-### Architectural diagram1 (used in the article)
+### Architecture
+NFS cache can be deployed in number of different architectures. In this example I am using the following architecture
 
 ![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/f762f23b-dfe9-4598-8d3e-8be116e5df06)
 
-### Architectural diagram2 (can be configured for HA)
+For HA purpose you can install a Network Load balancer (NLB) with 2 or more backend NFS cache servers
 
 ![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/a8681e27-4450-4baa-a81b-f438381cb181)
 
+### Deployment
 To deploy NFS cache on OCI provision a compute instance using one of E4.DenseIO.Flex shape. Use of one available E4.DenseIO.Flex shapes available
 
 ![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/452b83cb-554a-47f9-a6b1-c177ff045096)
