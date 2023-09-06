@@ -13,7 +13,7 @@ For HA purpose you can install a Network Load balancer (NLB) with 2 or more back
 ![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/a8681e27-4450-4baa-a81b-f438381cb181)
 
 ### Deployment
-To deploy NFS cache on OCI provision an Oracle Linux compute instance using one of E4.DenseIO.Flex shapes. Use of one available E4.DenseIO.Flex shapes available
+To deploy NFS cache on OCI provision an Oracle Linux compute instance using one of E4.DenseIO.Flex shapes. Use of one available E4.DenseIO.Flex shapes
 
 ![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/452b83cb-554a-47f9-a6b1-c177ff045096)
 
