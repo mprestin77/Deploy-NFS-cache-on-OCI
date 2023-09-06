@@ -14,6 +14,7 @@ For HA purpose you can install a Network Load balancer (NLB) with 2 or more back
 
 ### Deployment
 To deploy NFS cache on OCI provision an Oracle Linux compute instance using one of E4.DenseIO.Flex shapes
+
 ![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/452b83cb-554a-47f9-a6b1-c177ff045096)
 
 These DenseIO shapes have different number of NVMe local disks. NVMe storage will be used for caching NFS data. Select the shape based on the storage requirements.
