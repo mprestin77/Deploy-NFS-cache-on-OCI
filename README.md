@@ -8,11 +8,9 @@ NFS cache can be deployed in number of different architectures. In this example 
 
 ![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/f762f23b-dfe9-4598-8d3e-8be116e5df06)
 
-For HA purpose you can install a Network Load balancer (NLB) with 2 or more backend NFS cache servers
+For HA purpose you can install a Network Load balancer (NLB) with 2 or more backend NFS cache servers and configure TCP/2049 port in NLB listener
 
 ![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/a8681e27-4450-4baa-a81b-f438381cb181)
-
-and configure TCP/2049 port in NLB listener.
 
 ### Deployment
 To deploy NFS cache on OCI provision a compute instance using one of E4.DenseIO.Flex shape. Use of one available E4.DenseIO.Flex shapes available
