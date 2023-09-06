@@ -53,7 +53,8 @@ Mount directories exported from NFS cache to NFS clients. For example, on NFS cl
 
 sudo mount <NFS-cache-IP:/nfs-share /nfs-share 
 
-
+### Conclusion
+NFS performance can be significantly affected by network latency. Even a relatively small network latency can significantly degrade NFS performance for both read and writes. When using on-prem NFS storage deploying NFS cache on cloud can lead to significant performance benefits, particularly for "read-heavy workloads". 
 
 
 
