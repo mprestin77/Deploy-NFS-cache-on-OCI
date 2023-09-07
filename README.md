@@ -34,15 +34,15 @@ The script does the following:
 ### Post provisioning steps:
 
 Create a directory for NFS mount point, and mount NFS Server share to NFS cache VM using -fsc option. For example,
-
+```
 sudo mount <NFS-server-IP:/nfs-share /nfs-share -o fsc
-
+```
 Export NFS share by editing /etc/exports file 
-
+```
 sudo echo "/nfs-share *(rw,wdelay,no_root_squash,no_subtree_check,fsid=10,sec=sys,rw,secure,no_root_squash,no_all_squash)" > /etc/exports
 
 sudo exportfs -a
-
+```
 Check the cachfiled service is running
 
 sudo systemctl status cachefilesd
@@ -50,9 +50,9 @@ sudo systemctl status cachefilesd
 ![image](https://github.com/mprestin77/Deploy-NFS-cache-on-OCI/assets/54962742/41f4b8e3-591b-40f6-8655-4d2ea0f5fbd0)
 
 Mount directories exported from NFS cache to NFS clients. For example, on NFS client you can run
-
+```
 sudo mount <NFS-cache-IP>:/nfs-share /nfs-share 
-
+```
 When reading files that are not cached yet on FS-Cache server the access time will be longer. However, when a file is cached the read time will be comparible to accessing NFS server on the same LAN. The difference will be even more obvious when many NFS clients read the same content from the NFS share.
 
 ### Conclusion
