@@ -51,7 +51,9 @@ sudo systemctl status cachefilesd
 
 Mount directories exported from NFS cache to NFS clients. For example, on NFS client you can run
 
-sudo mount <NFS-cache-IP:/nfs-share /nfs-share 
+sudo mount <NFS-cache-IP>:/nfs-share /nfs-share 
+
+When reading files that are not cached yet on FS-Cache server the access time will be longer. However, when a file is cached the read time will be comparible to accessing NFS server on the same LAN. The difference will be even more obvious when many NFS clients read the same content from the NFS share.
 
 ### Conclusion
 NFS performance is very sensitive to network latency. Even a relatively small network latency can significantly degrade NFS performance for both reads and writes. When using on-prem NFS storage deploying NFS cache on cloud can lead to significant performance benefits, particularly for "read-heavy" workloads. 
