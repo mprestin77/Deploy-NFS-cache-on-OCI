@@ -35,12 +35,11 @@ The script does the following:
 
 Create a directory for NFS mount point, and mount NFS Server share to NFS cache VM using -fsc option. For example,
 ```
-sudo mount <NFS-server-IP:/nfs-share /nfs-share -o fsc
+sudo mount <NFS-server-IP>:/nfs-share /nfs-share -o fsc
 ```
 Export NFS share by editing /etc/exports file 
 ```
 sudo echo "/nfs-share *(rw,wdelay,no_root_squash,no_subtree_check,fsid=10,sec=sys,rw,secure,no_root_squash,no_all_squash)" > /etc/exports
-
 sudo exportfs -a
 ```
 Check the cachfiled service is running
