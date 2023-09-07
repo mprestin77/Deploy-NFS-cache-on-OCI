@@ -42,7 +42,7 @@ Export NFS share by editing /etc/exports file
 sudo echo "/nfs-share *(rw,wdelay,no_root_squash,no_subtree_check,fsid=10,sec=sys,rw,secure,no_root_squash,no_all_squash)" > /etc/exports
 sudo exportfs -a
 ```
-Check the cachfiled service is running
+Check that cachfiled service is running
 
 sudo systemctl status cachefilesd
 
